@@ -38,7 +38,7 @@ int buzzer_pin = 3;
 float si_septima = 3951.07;
 float do_septima = 2093.00;
 //Constructores.
-LiquidCrystal_I2C lcd(0x20,16,2);  
+LiquidCrystal_I2C lcd(0x27,16,2);  
 Servo Servo_habitacion;
 Servo Servo_entrada;
 Servo Servo_garage;
